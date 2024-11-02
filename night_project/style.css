@@ -1,0 +1,201 @@
+* {
+    margin: 0% 1;
+}
+body { 
+    border: 1px solid #222222;
+}
+
+/* nav */
+
+nav { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222222;
+    padding: 1% 2%;
+}
+nav a { 
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+}
+nav button { 
+    border-radius: 0px;
+    padding: 15px 40px;
+    border: none;
+    background-color: #FB4B4D;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    transition: .2s;
+    cursor: pointer;
+}
+
+/* block_1 */
+.block_1 { 
+    display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid #222222;
+    
+}
+
+/* block_of_imgs */
+
+.block_of_imgs { 
+    background-image: url(imgs/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 4%;
+}
+.block_bg { 
+    padding: 1% 2%;
+    border-bottom: 1px solid #222222;
+}
+
+/* block_of_txt */
+
+.block_of_txt h2 { 
+    font-size: 58px;
+    font-weight: 400;
+    font-family: Roboto;
+    border-bottom: 1px solid #222222 ;
+    text-align: center;
+    padding: 1% 2%;
+}
+/* block_frst */
+.block_frst { 
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #222222;
+    /* overflow: hidden; */
+    min-width: 700px;
+}
+.block_1_txt { 
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #222222 ;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Roboto;
+    align-items: center;
+}
+/* block_scnd */
+.block_scnd { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left:1px solid #222222 ;
+    overflow: hidden;
+}
+.block_frst_img { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 5%;
+}
+
+/* block_2  */
+.block_2_reclama { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid #222222 ;
+}
+.block_2_reclama h2{ 
+    color: #222222;
+    font-family: Roboto;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: center;
+}
+.block_2_card { 
+    background-image: url(imgs/bg_cards.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 440px;
+    min-height: 660px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block_2_card p { 
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.block_2_card h2 { 
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+}
+.block_2_cards { 
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 20px;
+    border-bottom: 1px solid #222222;
+}
+.block_2_perec { 
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 5%;
+    align-items: center;
+    border-bottom: 1px solid #222222;
+}
+.block_2 p { 
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 17px;
+    color: #000000;
+}
+
+/* block_3 */
+.block_3 { 
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.block_3_img{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 5%;
+    border-bottom:1px solid #222222
+}
+.block_3_info_img { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.block_3_info_img h2 { 
+    font-family: Roboto;
+    font-size: 58px;
+    font-weight: 400;
+}
+.block_3_info  {
+    display: flex;
+    justify-content: space-between;
+}
+.block_3_txt { 
+    border-left: 1px solid #222222;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-image: url(imgs/bg_3block.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+.block_3_txt p { 
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+}
